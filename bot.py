@@ -11,6 +11,4 @@ def text(message):
     bot.send_photo(chatid, open('1566206027.png','rb'))
 
         bot.polling()
-    except Exception:
-        time.sleep(15)
 
