@@ -5,7 +5,7 @@ import os
 
 bot = telebot.TeleBot(token=os.getenv('TG_BOT_TOKEN'))
 
-@bot.message_handler(commands=['start'])
+@bot.message_handler(commands=['list'])
 def send_welcome(message):
     bot.reply_to(message, '''List Yang Kami Jual Disini
 ===========
