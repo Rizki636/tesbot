@@ -10,5 +10,6 @@ def text(message):
     chatid = message.chat.id
     bot.send_photo(chatid, open('1566206027.png','rb'))
 
-        bot.polling()
+
+bot.polling()
 
